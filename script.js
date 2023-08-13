@@ -5,7 +5,7 @@ const form = document.forms.date,
   daysdom = document.querySelector("#dd-re"),
   monthsdom = document.querySelector("#mm-re"),
   yearsdom = document.querySelector("#yyyy-re"),
-  headers = document.querySelectorAll("#inp-title"),
+  headers = document.querySelectorAll(".inp-title"),
   errorMessage = document.querySelector(".error-message");
 
 const elements = [errorMessage, dd, mm, yyyy];
